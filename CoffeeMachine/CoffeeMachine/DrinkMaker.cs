@@ -4,8 +4,6 @@ namespace CoffeeMachine
 {
     public class DrinkMaker
     {
-        public void Execute(string command){
-            // send the command to the DrinkMaker
-        }
+        public interface Execute(string command);
     }
 }
