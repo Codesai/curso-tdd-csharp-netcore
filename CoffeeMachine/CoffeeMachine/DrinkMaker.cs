@@ -2,8 +2,8 @@
 
 namespace CoffeeMachine
 {
-    public class DrinkMaker
+    public interface DrinkMaker
     {
-        public interface Execute(string command);
+        void Execute(string command);
     }
 }
