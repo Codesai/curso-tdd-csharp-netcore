@@ -8,7 +8,7 @@ namespace PasswordValidator.Tests
         [Fact]
         public void think_a_good_name_and_change_it()
         {
-            Assert.True(true);
+            Assert.True(false);
         }
     }
 }
