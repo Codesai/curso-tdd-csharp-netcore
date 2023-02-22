@@ -8,7 +8,7 @@ namespace FizzBuzz.Tests
         [Fact]
         public void my_first_test()
         {
-            Assert.True(true);
+            Assert.True(false);
         }
     }
 }
