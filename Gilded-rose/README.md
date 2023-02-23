@@ -37,4 +37,12 @@ Feel free to make any changes to the UpdateQuality method and add any new code a
 
 Just for clarification, an item can never have its Quality increase above 50, however "Sulfuras" is a legendary item and as such its Quality is 80 and it never alters.
 
-[Possible tests solution](https://gist.githubusercontent.com/adelatorrefoss/6c974b422e2f81bf733a4c670cb4f9ba/raw/53fbd1e3c02cc90b6a9072ccf7457cee117fab64/GildedRoseTest.cs)
+# Launch mutation tests
+
+1. Run this command to install stryker (only the first time):
+
+> `$ dotnet tool restore`
+
+2. Run this command to execute:
+
+> `$ dotnet stryker`
