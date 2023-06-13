@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CoffeeMachine
+﻿namespace CoffeeMachine
 {
     public interface DrinkMaker
     {
