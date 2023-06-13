@@ -2,20 +2,15 @@ using System;
 
 namespace KataTirePressureVariation
 {
-    public interface ISensor
+    public class Sensor 
     {
-        double PopNextPressurePsiValue();
-    }
-
-    public class Sensor : ISensor
-    {
-        public const double OFFSET = 16;
+        private const double Offset = 16;
 
         public double PopNextPressurePsiValue()
         {
             var pressureTelemetryValue = SamplePressure();
 
-            return OFFSET + pressureTelemetryValue;
+            return Offset + pressureTelemetryValue;
         }
 
         private static double SamplePressure()
