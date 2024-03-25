@@ -1,21 +1,17 @@
-using System;
-using System.Collections.Generic;
-using NSubstitute;
-using NSubstitute.Exceptions;
-using Xunit;
+using NUnit.Framework;
 
 namespace KataTirePressureVariation.Test
 {
     public class AlarmShould
     {
-        [Fact]
+        [Test]
         public void thinks_in_what_we_need_to_test()
         {
             var alarm = new Alarm();
             
             alarm.Check();
             
-            Assert.True(false);
+            Assert.That(false, Is.True);
         }
         
     
