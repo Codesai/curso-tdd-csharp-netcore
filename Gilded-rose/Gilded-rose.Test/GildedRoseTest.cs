@@ -1,11 +1,11 @@
 using System.Collections.Generic;
-using Xunit;
+using NUnit.Framework;
 
 namespace Gilded_rose.Test
 {
     public class GildedRoseTest
     {
-        [Fact]
+        [Test]
         public void fix_me()
         {
             IList<Item> items = new List<Item> { new Item("foo", 0, 0) };
@@ -13,7 +13,7 @@ namespace Gilded_rose.Test
 
             app.UpdateQuality();
 
-            Assert.Equal("fixme", items[0].Name);
+            Assert.That(items[0].Name, Is.EqualTo("fixme"));
         }
 
     }
