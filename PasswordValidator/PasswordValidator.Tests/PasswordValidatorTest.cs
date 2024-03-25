@@ -1,14 +1,14 @@
 using System;
-using Xunit;
+using NUnit.Framework;
 
 namespace PasswordValidator.Tests
 {
     public class PasswordValidatorTest
     {
-        [Fact]
+        [Test]
         public void think_a_good_name_and_change_it()
         {
-            Assert.True(false);
+            Assert.That(false, Is.True);
         }
     }
 }
