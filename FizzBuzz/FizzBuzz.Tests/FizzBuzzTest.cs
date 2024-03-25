@@ -1,14 +1,13 @@
-using System;
-using Xunit;
+using NUnit.Framework;
 
 namespace FizzBuzz.Tests
 {
     public class FizzBuzzTest
     {
-        [Fact]
+        [Test]
         public void my_first_test()
         {
-            Assert.True(false);
+            Assert.That(false, Is.True);
         }
     }
 }
