@@ -5,7 +5,7 @@ namespace FizzBuzz.Tests
     public class FizzBuzzTest
     {
         [Test]
-        public void my_first_test()
+        public void My_First_Test()
         {
             Assert.That(false, Is.True);
         }

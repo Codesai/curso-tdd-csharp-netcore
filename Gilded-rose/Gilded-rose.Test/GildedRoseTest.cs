@@ -6,7 +6,7 @@ namespace Gilded_rose.Test
     public class GildedRoseTest
     {
         [Test]
-        public void fix_me()
+        public void Fix_Me()
         {
             IList<Item> items = new List<Item> { new Item("foo", 0, 0) };
             var app = new GildedRose(items);

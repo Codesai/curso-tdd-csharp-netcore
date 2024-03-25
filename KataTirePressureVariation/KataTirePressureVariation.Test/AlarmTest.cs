@@ -5,7 +5,7 @@ namespace KataTirePressureVariation.Test
     public class AlarmShould
     {
         [Test]
-        public void thinks_in_what_we_need_to_test()
+        public void Thinks_In_What_We_Need_To_Test()
         {
             var alarm = new Alarm();
             
