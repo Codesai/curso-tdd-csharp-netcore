@@ -1,13 +1,13 @@
-using Xunit;
+using NUnit.Framework;
 
 namespace CoffeeMachine.Tests
 {
     public class CoffeeMachineTest
     {
-        [Fact]
+        [Test]
         public void FixMeAndRenameMe()
         {
-            Assert.True(false);
+            Assert.That(false, Is.True);
         }
     }
 }
