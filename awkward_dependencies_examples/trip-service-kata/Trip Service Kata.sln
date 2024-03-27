@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService", "TripService\TripService.csproj", "{3A13DCDB-D06A-470A-815A-916470013C4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TripService.Tests", "TripService.Tests\TripService.Tests.csproj", "{9387A17E-4530-4189-9350-A14E8F1C85B9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A13DCDB-D06A-470A-815A-916470013C4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A13DCDB-D06A-470A-815A-916470013C4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A13DCDB-D06A-470A-815A-916470013C4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A13DCDB-D06A-470A-815A-916470013C4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9387A17E-4530-4189-9350-A14E8F1C85B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9387A17E-4530-4189-9350-A14E8F1C85B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9387A17E-4530-4189-9350-A14E8F1C85B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9387A17E-4530-4189-9350-A14E8F1C85B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
