@@ -1,8 +1,10 @@
 # Project
 In this Coffee Machine Project, your task is to implement the logic (starting from a simple class) that translates orders from customers of the coffee machine to the drink maker. Your code will use the drink maker protocol to send commands to the drink maker.
 
-# First iteration - Making drinks
+## Example of use of test doubles 
+[Use of test doubles with NSubstitute](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac)
 
+# First iteration - Making drinks
 In this iteration, your task is to implement the logic (starting from a simple class) that translates orders from customers of the coffee machine to the drink maker. Your code will use the drink maker protocol (see below) to send commands to the drink maker.
 
 The coffee machine can serves 3 type of drinks: tea, coffee, chocolate.
@@ -71,12 +73,12 @@ When I order a drink and it can be delivered because of a shortage, I want to se
 ## Implementation details
 You can take advantages of the 2 services implemented by the coffee machine:
 
-```java
+```csharp
 public interface EmailNotifier {
-    void notifyMissingDrink(String drink)
+    void NotifyMissingDrink(string drink)
 }
 
 public interface BeverageQuantityChecker {
-    boolean isEmpty(String drink)
+    boolean IsEmpty(string drink)
 }
 ```

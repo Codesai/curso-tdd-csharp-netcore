@@ -7,37 +7,8 @@ Be able to test `Alarm`'s `check` function without changing the method signature
 
 2. Test the code using test doubles created with a library.
 
-## Tools
-[NSubstitute](http://nsubstitute.github.io/)
-
-### Example of spy
-```csharp
-[Fact]
-public void should_interact_with_the_mock() {
-    var collaborator = Substitute.For<Collaborator>();       
-    MyClass myClass = new MyClass(collaborator);
-
-    myClass.Run();
-
-    collaborator.Received().Collaborate();
-}
-```
-
-### Example of stub
-
-```csharp
-[Fact]
-public void should_retrieve_the_stub_response(){
-    var collaborator = Substitute.For<Collaborator>();
-    String response = "collaborator response";
-    collaborator.Collaborate().Returns(response);
-    MyClass myClass = new MyClass(collaborator);
-
-    String result = myClass.Run();
-
-    Assert.Equal(response, result);
-}
-```
+## Example of use of test doubles 
+[Use of test doubles with NSubstitute](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac)
 
 ## Learnings
 How to build a Spy and a Stub manually.
