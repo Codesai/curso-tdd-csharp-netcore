@@ -2,7 +2,7 @@
 
 namespace MorningRoutine.Tests;
 
-public class MyMorningRoutingTest
+public class MyMorningRoutineTest
 {
    [Test]
    public void Fix_Me()

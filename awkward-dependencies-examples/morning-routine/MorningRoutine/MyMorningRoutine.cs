@@ -1,6 +1,6 @@
 ﻿namespace MorningRoutine;
 
-public class MyMorningRouting
+public class MyMorningRoutine
 {
     public void WhatShouldIDoNow()
     {
