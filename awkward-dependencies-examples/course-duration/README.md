@@ -1,3 +1,3 @@
 # Course Duration
 
-To practice using test doubles
+To practice recognizing awkward dependencies
