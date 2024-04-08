@@ -17,7 +17,12 @@ And you want to send them a happy birthday email on their birth date :
      Subject: Happy birthday!
     
      Happy birthday, dear <first_name>!
+
     
+Constraints
+------
+The signature of the only public method in the entry point must be => `void Send(DateTime today)`
+
 
 Origin
 ------
