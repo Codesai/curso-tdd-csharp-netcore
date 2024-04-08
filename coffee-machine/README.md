@@ -4,6 +4,16 @@ In this Coffee Machine Project, your task is to implement the logic (starting fr
 ## Example of use of test doubles 
 [Use of test doubles with NSubstitute](https://gist.github.com/franreyes/575c81082ede41208784950d1a445cac)
 
+## Public interface of CoffeeMachine
+
+```csharp
+void SelectCoffee()
+void SelectTea()
+void SelectChocolate()
+void AddOneSpoonOfSugar()
+void MakeDrink()`
+```
+
 # First iteration - Making drinks
 In this iteration, your task is to implement the logic (starting from a simple class) that translates orders from customers of the coffee machine to the drink maker. Your code will use the drink maker protocol (see below) to send commands to the drink maker.
 
