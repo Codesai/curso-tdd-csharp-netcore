@@ -32,6 +32,6 @@ $ Stop!
 > Adios Pedro
 ```
 
-### Restriction: 
+### Constraints: 
 
 The only public method in the entry point will be: `void Run(string userName);`, it will start the application.
