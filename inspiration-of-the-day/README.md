@@ -12,7 +12,7 @@ and sends it by WhatsApp to a random employee
 so that that employee gets inspired and motivated by the manager.
 
  
-### Hints
+### Constraints
 
 The entry point of the service only has this public method: `void InspireSomeone(string word);`
 
