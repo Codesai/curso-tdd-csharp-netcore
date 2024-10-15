@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgentRose", "ArgentRose\ArgentRose.csproj", "{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArgentRose.Tests", "ArgentRose.Tests\ArgentRose.Tests.csproj", "{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CB8D63-E2C9-47B9-9EDA-89D1419E3314}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D1740AF-D614-4E84-B64F-AF6B65D9FCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
