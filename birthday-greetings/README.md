@@ -12,7 +12,7 @@ Imagine you have a flat file with all your friends :
      Ann, Mary, 1975/09/11, mary.ann@foobar.com
     
 
-And you want to send them a happy birthday email on their birth date :
+And you want to send them a happy birthday email on their birthdate :
 
      Subject: Happy birthday!
     
