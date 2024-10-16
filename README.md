@@ -1,16 +1,21 @@
 # Katas
 
+# Katas
+
 ## Fizz Buzz
-Good kata to start doing TDD
+Good kata to start doing TDD.
 
 ## Password validator
-Kata to practice the importance of the order of selection of the tests.
+Kata to practice the importance of examples list and test order.
+
+## Argent Rose
+Kata to practice TDD heuristics.
 
 ## Tire Pressure Variation
-Refactoring kata to start practicing with test doubles (spies and stubs).
+Refactoring kata to practice TDD with test doubles.
 
 ## Coffee Machine
-Good kata to learn Outside-in TDD with test doubles
+Good kata to practice TDD with test doubles.
 
 ## Awkward dependencies examples.
 Exercises to detect violations of FIRS (side-effects and sources of non determinism).
