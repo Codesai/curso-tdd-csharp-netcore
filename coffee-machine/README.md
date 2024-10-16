@@ -32,3 +32,14 @@ The drink maker receives string commands from your code to make the drinks. It c
     "H::" (Drink maker makes 1 chocolate with no sugar and therefore no stick)
     "C:2:0" (Drink maker makes 1 coffee with 2 sugars and a stick)
     "M:message-content" (Drink maker forwards any message received onto the coffee machine interface for the customer to see)
+
+
+# Mutation testing
+
+## Install dependencies and tools
+
+`dotnet restore`
+
+## Mutation testing
+
+`dotnet stryker --open-report`
