@@ -13,7 +13,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\KataTirePressureVariation\KataTirePressureVariation.csproj" />
+      <ProjectReference Include="..\TirePressureVariation\TirePressureVariation.csproj" />
     </ItemGroup>
 
 </Project>

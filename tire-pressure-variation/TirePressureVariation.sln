@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTirePressureVariation", "KataTirePressureVariation\KataTirePressureVariation.csproj", "{D05F4715-B471-4DBD-B719-E939B26A70FE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressureVariation", "TirePressureVariation\TirePressureVariation.csproj", "{D05F4715-B471-4DBD-B719-E939B26A70FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataTirePressureVariation.Test", "KataTirePressureVariation.Test\KataTirePressureVariation.Test.csproj", "{2433DD6D-5BFE-45A9-B18B-1DBC36BB8F61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TirePressureVariation.Test", "TirePressureVariation.Test\TirePressureVariation.Test.csproj", "{2433DD6D-5BFE-45A9-B18B-1DBC36BB8F61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
