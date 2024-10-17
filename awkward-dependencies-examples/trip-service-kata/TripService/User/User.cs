@@ -4,6 +4,12 @@ public class User
 {
     private readonly List<Trip.Trip> _trips = new();
     private readonly List<User> _friends = new();
+    public string Name { get; }
+
+    public User(string name)
+    {
+        Name = name;
+    }
 
     public List<User> GetFriends()
     {
