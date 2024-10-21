@@ -3,7 +3,7 @@
 ## Goal
 Recognizing awkward dependencies (FIRS violations).
 
-1. Examine the code of `TripService` and identify which violations of FIRS make the code not unit-testable.
+1. Examine the code and identify which violations of FIRS make the code not unit-testable.
 
 2. Optional: how would you design `TripService` so that it is unit-testable?
 
