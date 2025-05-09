@@ -6,6 +6,10 @@ No mutants
 
 `dotnet restore`
 
+## Run this command to execute coverage:
+
+`dotnet msbuild -target:Coverlet`
+
 ## Mutation testing
 
 `dotnet stryker --open-report`

@@ -18,6 +18,11 @@ Aside from its constructor this is the only public method of the `Alarm` class:
 
 `dotnet restore`
 
+#### Run this command to execute coverage:
+
+`dotnet msbuild -target:Coverlet`
+
+
 ##### Mutation testing
 
 `dotnet stryker --open-report`
